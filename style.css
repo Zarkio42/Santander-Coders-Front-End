@@ -203,4 +203,72 @@ main{
     text-decoration: none;
 }
 
-/* ------------------------------------- ------------- */
+/* -------------------------------------------------- */
+
+/* ------------Seção Premios ------------- */
+.premios{
+    padding: 60px 0 0 0;
+}
+
+.conteudo-premios{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.premios .conteudo-premios h3{
+    font-family: SantanterText;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    display: block;
+}
+
+.premios .conteudo-premios h3 span{
+    font-family: 'SantanderHeadLine-Bold';
+}
+
+.texto-explicativo{
+    font-family: 'SantanderText-italic';
+    margin: 20px 0 20px 0;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.premios .texto-explicativo a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.premios .btn-cadastrar{
+    font-family: 'SantanderHeadLine-Bold';
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 13px;
+    background: #fff;
+    display: inline-block;
+}
+
+.premios .btn-link{
+    width: 200px;
+    height: 40px;
+    border: solid 1px #000;
+    border-radius: 40px;
+    background-color: #f8071b;
+    color: #fff;
+    padding: 8px 0 7px 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+}
+/* -------------------------------------------------- */
