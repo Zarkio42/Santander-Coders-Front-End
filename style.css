@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ------------Seção Como Participar ------------- */
+.participar{
+    text-align: center;
+    padding: 60px 0 50px 0;
+}
+
+.participar h2{
+    font-family: sans-serif;
+    font: 36px;
+    text-align: center;
+    color: #000;
+}
+
+.participar-icon{
+    background: url(assets/bg-item.svg) no-repeat center center;
+    height: 150px;
+}
+
+.participar-icon img{
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 40px 30px;
+    margin-top: 12px;
+}
+.como_participar h3{
+    margin: 20px 0 10px 0;
+}
+
+.como_participar a{
+    color: #000;
+}
+
+.como_participar .btn-cadastrar{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 77px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 13px;
+    background: #fff;
+    display: inline-block;
+}
+
+.btn-cta{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 18px 5px 5px 5px;
+    gap: 20px;
+}
+
+.como_participar .btn-link{
+    width: 200px;
+    height: 40px;
+    border: solid 1px #000;
+    border-radius: 40px;
+    background-color: #f8071b;
+    color: #fff;
+    padding: 8px 0 7px 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* ------------ Fim Seção Como Participar ------------- */
