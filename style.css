@@ -271,4 +271,192 @@ main{
     line-height: 20px;
     text-decoration: none;
 }
+
+.premios .mb-60{
+    margin-bottom: 60px;
+}
+/* -------------------------------------------------- */
+
+/* ------------Seção Shows ------------- */
+.shows{
+    background: #f2f2f2;
+    padding: 50px 0 70px;
+    box-sizing: border-box;
+}
+
+.shows .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.shows h2{
+    font-family: 'SantanderHeadLine-Bold';
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.shows .container .nav-tabs{
+    padding: 0 15px;
+    border-bottom: 3px solid #f8071B;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shows .nav-tabs .nav-item{
+    flex: none;
+    margin-bottom: 0;
+}
+
+.shows .nav-item:first-child .nav-link{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f8071B;
+    background: #f8071B;
+    color: #fff;
+}
+
+.shows .nav-link.active{
+    background: #f8071B; 
+    font-family: 'SantanderHeadLine-Bold';
+    font-size: 24px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff
+}
+
+.shows .nav-link{
+    padding: 14px 65px;
+    background-color: #fff;
+    font-family: 'SantanderHeadLine-Bold';
+    font-size: 24px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.shows .nav-item:last-child .nav-link{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f8071B;
+}
+
+.shows .tab-content .tab-pane{
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.shows .conteudo-tab{
+    background: transparent;
+    margin: 0;
+}
+
+.shows .conteudo-tab h3{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: #000000;
+    font-family: 'SantanderText';
+    margin-bottom: 10px;
+}
+
+.shows .conteudo-slide-tab{
+    flex: none;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.shows .posters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: grab;
+    width: 320px;
+    max-height: 450px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    perspective: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shows .picture{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+}
+
+.shows .detail{
+    padding: 10px 0px 13px;
+    text-align: center;
+    border-top: 5px solid #f8071B;
+    min-height: 130px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.shows .detail h4{
+    font-size: 1.625rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.625rem;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    font-family: 'SantanderText-Bold';
+    display: block;
+}
+
+.shows .detail .calendar-event{
+    text-align: center;
+    font-family: 'SantanterText';
+    font-size: 15px;
+    line-height: 15px;
+    color: #000;
+    display: block;
+}
+
+.shows .detail .flag-footer{
+    position: fixed;
+    bottom: 12px;
+    width: 100%;
+    box-sizing: 100%;
+    display: block;
+}
+
+.shows .detail .flag-footer p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.shows .detail .flag-footer p span{
+    font-family: 'SantanterText-Bold';
+    font-size: 11px;
+    line-height: 11px;
+    border-radius: 4px;
+    border: 1px solid #f8071B;
+    padding: 2px 6px;
+    color: #f8071B;
+}
 /* -------------------------------------------------- */

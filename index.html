@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <!-------Bootstrap-------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+     <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/ad4e4012da.js" crossorigin="anonymous"></script>
 </head>
 <body>
         <nav></nav>
@@ -50,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="tenha_mais_chances">
+        <section id="tenha_mais_chances" class="tenha_mais_chances">
             <div class="container chances">
                 <h2>Tenha mais chances de ganhar</h2>
                 <div class="row justify-content-center">
@@ -94,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <section class="premios">
+        <section id="premios" class="premios">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -143,7 +146,99 @@
                 <div class="row mb-60"></div>
             </div>
         </section>
-        <section class="shows"></section>
+        <section id="shows" class="shows">
+            <div class="container">
+                <h2>Shows</h2>
+                <ul id="shows-elegiveis" class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="shows-elegiveis-primeiro-sorteio" data-toggle="tab" href="#shows-elegiveis-primeiro-sorteio-tab" role="tab" aria-controls="shows-elegiveis-primeiro-sorteio" aria-selected="true">1° SORTEIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="shows-elegiveis-segundo-sorteio" data-toggle="tab" href="#shows-elegiveis-segundo-sorteio-tab" role="tab" aria-controls="shows-elegiveis-segundo-sorteio" aria-selected="true">2° SORTEIO</a>
+                    </li>
+                </ul>
+
+                <div id="shows-elegiveis" class="tab-content">
+                    <div class="tab-pane fade show active" id="shows-elegiveis-primeiro-sorteio-tab" role="tabpanel" aria-labelledby="shows-elegiveis-primeiro-tab">
+                        <div class="row conteudo-tab">
+                            <div class="col-md-12">
+                                <h3>Shows disponíveis no <strong>primeiro sorteio:</strong></h3>
+                            </div>
+
+                            <div class="col-md-12 conteudo-slide-tab"></div>
+                                <div class="posters">
+                                    <div class="picture">
+                                        <img src="assets/min-artwork-bruno-mars.png" height="320px" width="320px" alt="Show Bruno Mars Brasil 2024">
+                                    </div>
+                                    <div class="detail">
+                                        <h4>SHOW BRUNO MARS</h4>
+                                        <div class="calendar-event">
+                                            <span>Outubro/2024</span>
+                                        </div>
+                                        <div class="flag-footer">
+                                            <p>
+                                                <span>SHOW ELEGÍVEL PARA O 1° SORTEIO</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="posters">
+                                    <div class="picture">
+                                        <img src="assets/min-artwork-lenny-kravitz.png" width="320px" height="320px" alt="Show Lenny Kravitz Brasil 2024">
+                                    </div>
+                                    <div class="detail">
+                                        <h4>SHOW LENNY KRAVITZ</h4>
+                                            <div class="calendar-event">
+                                                <span>Novembro/2024</span>
+                                            </div>
+                                            <div class="flag-footer">
+                                                <p>
+                                                    <span>SHOW ELEGÍVEL PARA O 1° SORTEIO</span>
+                                                </p>
+                                            </div>
+                                    </div>
+                                </div>
+                                        
+                                <div class="posters">
+                                    <div class="picture">
+                                        <img src="assets/min-artwork-iron-maiden.png" width="320px" height="320px" alt="Show Bruno Mars Brasil 2024">
+                                    </div>
+                                    <div class="detail">
+                                        <h4>SHOW IRON MAIDEN</h4>
+                                        <div class="calendar-event"> 
+                                            <span>Dezembro/2024</span>
+                                        </div>
+                                            <div class="flag-footer">
+                                                <p>
+                                                    <span>SHOW ELEGÍVEL PARA O 1° SORTEIO</span>
+                                                </p>
+                                            </div>
+                                    </div>
+                                </div>
+                                 
+                                <div class="posters">
+                                    <div class="picture">
+                                        <img src="assets/min-artwork-twenty-one-pilots.png" width="320px" height="320px" alt="Show Bruno Mars Brasil 2024">
+                                    </div>
+                                    <div class="detail">
+                                        <h4>SHOW TWENTY ONE PILOTS</h4>
+                                        <div class="calendar-event">
+                                            <span>Janeiro/2025</span>
+                                        </div>
+                                        <div class="flag-footer">
+                                            <p>
+                                                <span>SHOW ELEGÍVEL PARA O 1° SORTEIO</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="cadastra_se"></section>
         <section class="calendario"></section>
         <section class="numeros_da_sorte"></section>
