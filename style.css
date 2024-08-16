@@ -23,70 +23,70 @@ body{
 /*--------------FONTES-----------------*/
 @font-face {
     font-family: 'SantanderHeadline-Bold';
-    src: url('../fonts/santander-headline/santanderheadline-bold-webfont.woff2') format('woff2'), url('../fonts/santander-headline/santanderheadline-bold-webfont.woff') format('woff');
+    src: url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'SantanderHeadline-BoldIt';
-    src: url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff2') format('woff2'), url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff') format('woff');
+    src: url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-boldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'SantanderHeadline-It';
-    src: url('../fonts/santander-headline/santanderheadline-it-webfont.woff2') format('woff2'), url('../fonts/santander-headline/santanderheadline-it-webfont.woff') format('woff');
+    src: url('./assets/fonts/headlines/santanderheadline-it-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'SantanderHeadline';
-    src: url('../fonts/santander-headline/santanderheadline-regular-webfont.woff2') format('woff2'), url('../fonts/santander-headline/santanderheadline-regular-webfont.woff') format('woff');
+    src: url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
 
     @font-face {
         font-family: 'SantanderText-Bold';
-        src: url('../fonts/santander-text/santandertext-bold-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-bold-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-bold-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bold-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
       
       @font-face {
         font-family: 'SantanderText-BoldItalic';
-        src: url('../fonts/santander-text/santandertext-bolditalic-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-bolditalic-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-bolditalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bolditalic-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
       
       @font-face {
         font-family: 'SantanderText-Italic';
-        src: url('../fonts/santander-text/santandertext-italic-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-italic-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-italic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-italic-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
 
       @font-face {
         font-family: 'SantanderText-Light';
-        src: url('../fonts/santander-text/santandertext-light-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-light-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-light-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-light-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
       
       @font-face {
         font-family: 'SantanderText-LightItalic';
-        src: url('../fonts/santander-text/santandertext-lightitalic-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-lightitalic-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-lightitalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-lightitalic-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
       
       @font-face {
         font-family: 'SantanderText';
-        src: url('../fonts/santander-text/santandertext-regular-webfont.woff2') format('woff2'), url('../fonts/santander-text/santandertext-regular-webfont.woff') format('woff');
+        src: url('./assets/fonts/text/santandertext-regular-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-regular-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
       }
@@ -95,7 +95,7 @@ body{
 /* ------------  Main ------------- */
 main{
     padding-top: 51px;
-    background: url(assets/banner-hero-desktop.jpg) no-repeat center center;
+    background: url(assets/images/banner-hero-desktop.jpg) no-repeat center center;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -123,7 +123,7 @@ main{
 }
 
 .participar-icon{
-    background: url(assets/bg-item.svg) no-repeat center center;
+    background: url(assets/images/bg-item.svg) no-repeat center center;
     height: 130px;
     background-size: contain;
 }
@@ -203,7 +203,7 @@ main{
 }
 
 .tenha_mais_chances{
-    background: url(assets/banner-chance.jpg) no-repeat center center;
+    background: url(assets/images/banner-chance.jpg) no-repeat center center;
     background-size: cover;
     padding: 60px 0 50px 0;
 }
@@ -213,7 +213,7 @@ main{
 }
 
 .chance-box{
-    background: url(assets/bg-item-1.svg) no-repeat center center;
+    background: url(assets/images/bg-item-1.svg) no-repeat center center;
     height: 290px;
     display: flex;
     flex-direction: column;
