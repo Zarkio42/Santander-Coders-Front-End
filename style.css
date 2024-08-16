@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
 }
 
-body{
+body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
@@ -14,7 +14,20 @@ body{
     background-color: #fff;
 }
 
-.container{
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f8071b;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #252525;
+    ;
+}
+
+.container {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -26,92 +39,137 @@ body{
     src: url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'SantanderHeadline-BoldIt';
     src: url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-boldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'SantanderHeadline-It';
     src: url('./assets/fonts/headlines/santanderheadline-it-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'SantanderHeadline';
     src: url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff2') format('woff2'), url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-    @font-face {
-        font-family: 'SantanderText-Bold';
-        src: url('./assets/fonts/text/santandertext-bold-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bold-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
-      
-      @font-face {
-        font-family: 'SantanderText-BoldItalic';
-        src: url('./assets/fonts/text/santandertext-bolditalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bolditalic-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
-      
-      @font-face {
-        font-family: 'SantanderText-Italic';
-        src: url('./assets/fonts/text/santandertext-italic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-italic-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
+@font-face {
+    font-family: 'SantanderText-Bold';
+    src: url('./assets/fonts/text/santandertext-bold-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-      @font-face {
-        font-family: 'SantanderText-Light';
-        src: url('./assets/fonts/text/santandertext-light-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-light-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
-      
-      @font-face {
-        font-family: 'SantanderText-LightItalic';
-        src: url('./assets/fonts/text/santandertext-lightitalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-lightitalic-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
-      
-      @font-face {
-        font-family: 'SantanderText';
-        src: url('./assets/fonts/text/santandertext-regular-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-regular-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
+@font-face {
+    font-family: 'SantanderText-BoldItalic';
+    src: url('./assets/fonts/text/santandertext-bolditalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SantanderText-Italic';
+    src: url('./assets/fonts/text/santandertext-italic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SantanderText-Light';
+    src: url('./assets/fonts/text/santandertext-light-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SantanderText-LightItalic';
+    src: url('./assets/fonts/text/santandertext-lightitalic-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SantanderText';
+    src: url('./assets/fonts/text/santandertext-regular-webfont.woff2') format('woff2'), url('./assets/fonts/text/santandertext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ------------------------------------ */
 
 /* ------------  Main ------------- */
-main{
+main {
     padding-top: 51px;
-    background: url(assets/images/banner-hero-desktop.jpg) no-repeat center center;
-    position: relative;
+    background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
     width: 100%;
-    overflow: hidden;
     min-height: 768px;
-    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-section{
+    display: none;
+}
+
+.vertical {
+    width: 6px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(248, 7, 27);
+    background-color: rgb(248, 7, 27);
+    animation-direction: alternate-reverse;
+    margin: 3px;
+}
+
+.equalizer {
+    display: flex;
+    width: 100%;
+    
+}
+
+.vertical-lines {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.vertical {
+    width: 5px;
+    height: 20px;
+    background-color: #f8071B;
+}
+
+@keyframes equalizer {
+    from {
+        height: 100%;
+    }
+
+    to {
+        height: 20px;
+    }
 }
 
 /* ------------Fim main ------------- */
 
 /* ------------Seção Como Participar ------------- */
-.participar{
+.participar {
     text-align: center;
     padding: 60px 0 50px 0;
 }
 
-.participar h2{
+.participar h2 {
     font-family: 'SantanderHeadline-Bold';
     font-size: 26px;
     font-stretch: normal;
@@ -122,20 +180,20 @@ main{
     color: #000;
 }
 
-.participar-icon{
+.participar-icon {
     background: url(assets/images/bg-item.svg) no-repeat center center;
     height: 130px;
     background-size: contain;
 }
 
-.participar-icon img{
+.participar-icon img {
     border: 3px solid #fff;
     border-radius: 15px;
     padding: 30px 20px;
     margin-top: 12px;
 }
 
-.como_participar h3{
+.como_participar h3 {
     font-family: SantanderText;
     font-size: 1.5rem;
     font-weight: normal;
@@ -148,11 +206,11 @@ main{
     margin: 20px 0 10px 0;
 }
 
-.como_participar a{
+.como_participar a {
     color: #000;
 }
 
-.como_participar .btn-cadastrar{
+.como_participar .btn-cadastrar {
     font-family: 'SantanderHeadline-Bold';
     font-size: 28px;
     font-weight: bold;
@@ -166,7 +224,7 @@ main{
     display: inline-block;
 }
 
-.btn-cta{
+.btn-cta {
     display: flex;
     justify-content: center;
     flex: 1;
@@ -174,7 +232,7 @@ main{
     gap: 20px;
 }
 
-.como_participar .btn-link{
+.btn-cta .btn-link {
     width: 150px;
     height: 40px;
     border: solid 1px #000;
@@ -188,13 +246,18 @@ main{
     font-weight: bold;
     line-height: 20px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-cta .btn-link:hover {
+    color: #fff;
 }
 
 
 /* ------------------------------------------------- */
 
 /* ------------ Seção Tenha mais chances ------------- */
-.chances h2{
+.chances h2 {
     font-family: 'SantanderHeadline-Bold';
     font-size: 26px;
     font-weight: bold;
@@ -202,17 +265,17 @@ main{
     color: #fff;
 }
 
-.tenha_mais_chances{
+.tenha_mais_chances {
     background: url(assets/images/banner-chance.jpg) no-repeat center center;
     background-size: cover;
     padding: 60px 0 50px 0;
 }
 
-.chances .col-md-4{
+.chances .col-md-4 {
     padding: 0 12.5px;
 }
 
-.chance-box{
+.chance-box {
     background: url(assets/images/bg-item-1.svg) no-repeat center center;
     height: 290px;
     display: flex;
@@ -223,12 +286,12 @@ main{
     background-size: contain;
 }
 
-.chance-box img{
+.chance-box img {
     text-align: center;
-    margin-bottom: 27px; 
+    margin-bottom: 27px;
 }
 
-.chance-box p .title-item{
+.chance-box p .title-item {
     font-family: 'SantanderHeadline-Bold';
     margin: 0 auto 0 auto;
     font-size: 18px;
@@ -239,7 +302,7 @@ main{
     display: block;
 }
 
-.chance-box p{
+.chance-box p {
     width: 246px;
     display: block;
     margin: 26px auto 0 auto;
@@ -250,22 +313,22 @@ main{
     color: #3a3a3a;
 }
 
-.chance-box .cta-hero{
+.chance-box .cta-hero {
     margin-top: 30px;
 }
 
-.chance-box .title-cta{
+.chance-box .title-cta {
     color: #fff;
     text-decoration: none;
 }
 
-.cta-hero .title-cta span{
+.cta-hero .title-cta span {
     padding: 2px 13px 4px;
     border-radius: 6px;
     border: solid 1px #fff;
 }
 
-.cta-hero.cta-white .title-cta{
+.cta-hero.cta-white .title-cta {
     font-family: 'SantanderHeadline-Bold';
     font-size: 28px;
     font-weight: bold;
@@ -277,7 +340,7 @@ main{
     margin-bottom: 35px;
 }
 
-.tenha_mais_chances .btn-link{
+.tenha_mais_chances .btn-link {
     width: 200px;
     height: 40px;
     border: solid 1px #000;
@@ -296,16 +359,16 @@ main{
 /* -------------------------------------------------- */
 
 /* ------------Seção Premios ------------- */
-.premios{
+.premios {
     padding: 60px 0 0 0;
 }
 
-.conteudo-premios{
+.conteudo-premios {
     margin-top: 20px;
     text-align: center;
 }
 
-.premios h2{
+.premios h2 {
     font-family: 'SantanderHeadline-Bold';
     font-size: 26px;
     font-weight: bold;
@@ -317,7 +380,7 @@ main{
     color: #000;
 }
 
-.premios .conteudo-premios h3{
+.premios .conteudo-premios h3 {
     font-family: SantanterText;
     font-size: 20px;
     font-stretch: normal;
@@ -329,24 +392,24 @@ main{
     display: block;
 }
 
-.premios .conteudo-premios h3 span{
+.premios .conteudo-premios h3 span {
     font-family: 'SantanderHeadline-Bold';
 }
 
-.texto-explicativo{
+.texto-explicativo {
     font-family: 'SantanderText-italic';
     margin: 20px 0 20px 0;
     font-size: 1.1rem;
     color: #000;
 }
 
-.premios .texto-explicativo a{
+.premios .texto-explicativo a {
     color: #000;
     text-decoration: underline;
 }
 
 
-.premios .btn-cadastrar{
+.premios .btn-cadastrar {
     font-family: 'SantanderHeadline-Bold';
     font-size: 28px;
     font-weight: bold;
@@ -359,7 +422,7 @@ main{
     display: inline-block;
 }
 
-.premios .btn-link{
+.premios .btn-link {
     width: 200px;
     height: 40px;
     border: solid 1px #000;
@@ -375,24 +438,25 @@ main{
     text-decoration: none;
 }
 
-.premios .mb-60{
+.premios .mb-60 {
     margin-bottom: 60px;
 }
+
 /* -------------------------------------------------- */
 
 /* ------------Seção Shows ------------- */
-.shows{
+.shows {
     background: #f2f2f2;
     padding: 50px 0 70px;
     box-sizing: border-box;
 }
 
-.shows .container{
+.shows .container {
     padding-left: 0;
     padding-right: 0;
 }
 
-.shows h2{
+.shows h2 {
     font-family: 'SantanderHeadLine-Bold';
     font-size: 36px;
     font-weight: bold;
@@ -403,7 +467,7 @@ main{
     color: #000;
 }
 
-.shows .container .nav-tabs{
+.shows .container .nav-tabs {
     padding: 0 15px;
     border-bottom: 3px solid #f8071B;
     margin-top: 30px;
@@ -411,12 +475,12 @@ main{
     justify-content: center;
 }
 
-.shows .nav-tabs .nav-item{
+.shows .nav-tabs .nav-item {
     flex: none;
     margin-bottom: 0;
 }
 
-.shows .nav-item:first-child .nav-link{
+.shows .nav-item:first-child .nav-link {
     border-radius: 10px;
     margin-bottom: 10px;
     border: 1px solid #f8071B;
@@ -424,8 +488,8 @@ main{
     color: #fff;
 }
 
-.shows .nav-link.active{
-    background: #f8071B; 
+.shows .nav-link.active {
+    background: #f8071B;
     font-family: 'SantanderHeadLine-Bold';
     font-size: 24px;
     text-transform: uppercase;
@@ -437,7 +501,7 @@ main{
     color: #fff
 }
 
-.shows .nav-link{
+.shows .nav-link {
     padding: 14px 65px;
     background-color: #fff;
     font-family: 'SantanderHeadline-Bold';
@@ -451,23 +515,23 @@ main{
     color: #000;
 }
 
-.shows .nav-item:last-child .nav-link{
+.shows .nav-item:last-child .nav-link {
     border-radius: 10px;
     margin-bottom: 10px;
     border: 1px solid #f8071B;
 }
 
-.shows .tab-content .tab-pane{
+.shows .tab-content .tab-pane {
     padding: 20px 0;
     margin-top: 0;
 }
 
-.shows .conteudo-tab{
+.shows .conteudo-tab {
     background: transparent;
     margin: 0;
 }
 
-.shows .conteudo-tab h3{
+.shows .conteudo-tab h3 {
     font-size: 1.2rem;
     line-height: 1.2rem;
     text-align: center;
@@ -476,13 +540,13 @@ main{
     margin-bottom: 10px;
 }
 
-.shows .conteudo-slide-tab{
+.shows .conteudo-slide-tab {
     flex: none;
     max-width: 100%;
     box-sizing: border-box;
 }
 
-.shows .posters{
+.shows .posters {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -501,15 +565,15 @@ main{
     margin-bottom: 20px;
 }
 
-.shows .picture{
+.shows .picture {
     width: 320px;
     height: 320px;
     overflow: hidden;
     border-radius: 10px 10px 0 0;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
-.shows .detail{
+.shows .detail {
     padding: 10px 0px 13px;
     text-align: center;
     border-top: 5px solid #f8071B;
@@ -519,7 +583,7 @@ main{
     border-radius: 0 0 10px 10px;
 }
 
-.shows .detail h4{
+.shows .detail h4 {
     font-size: 1.625rem;
     font-stretch: normal;
     font-style: normal;
@@ -531,7 +595,7 @@ main{
     display: block;
 }
 
-.shows .detail .calendar-event{
+.shows .detail .calendar-event {
     text-align: center;
     font-family: 'SantanterText';
     font-size: 15px;
@@ -540,11 +604,11 @@ main{
     display: block;
 }
 
-.shows .posters .detail i{
-    color:#f8071B
+.shows .posters .detail i {
+    color: #f8071B
 }
 
-.shows .detail .flag-footer{
+.shows .detail .flag-footer {
     position: fixed;
     bottom: 12px;
     width: 100%;
@@ -552,12 +616,12 @@ main{
     display: block;
 }
 
-.shows .detail .flag-footer p{
+.shows .detail .flag-footer p {
     text-align: center;
     margin-bottom: 0;
 }
 
-.shows .detail .flag-footer p span{
+.shows .detail .flag-footer p span {
     font-family: 'SantanterText-Bold';
     font-size: 11px;
     line-height: 11px;
@@ -566,20 +630,21 @@ main{
     padding: 2px 6px;
     color: #f8071B;
 }
+
 /* -------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-/* ------------Seção Como Participar ------------- */
-   .participar{
-    padding: 30px 0;
-   } 
+    /* ------------Seção Como Participar ------------- */
+    .participar {
+        padding: 30px 0;
+    }
 
-   .como_participar h3{
-    font-size: 2rem;
-   }
+    .como_participar h3 {
+        font-size: 2rem;
+    }
 
-    .como_participar .btn-link{
+    .como_participar .btn-link {
         width: 200px;
         height: 40px;
         border: solid 1px #000;
@@ -594,15 +659,16 @@ main{
         line-height: 20px;
         text-decoration: none;
     }
-/* -------------------------------------- */
 
-/*------------- Seção Tenha Mais Chances------------- */
-    .chance-box{
+    /* -------------------------------------- */
+
+    /*------------- Seção Tenha Mais Chances------------- */
+    .chance-box {
         height: 250px;
         width: 250px;
     }
 
-    .chance-box p .title-item{
+    .chance-box p .title-item {
         font-family: 'SantanderHeadline-Bold';
         margin: 26 auto 0 auto;
         font-size: 22px;
@@ -613,13 +679,13 @@ main{
         display: block;
     }
 
-    .chance-box p{
+    .chance-box p {
         width: 230px;
         font-size: 14px;
         margin-top: 10px;
     }
 
-    .cta-hero.cta-white .title-cta{
+    .cta-hero.cta-white .title-cta {
         font-family: 'SantanderHeadline-Bold';
         font-size: 28px;
         font-weight: bold;
@@ -630,15 +696,16 @@ main{
         margin-top: 15px;
         margin-bottom: 35px;
     }
-/*-------------------------------------------- */
 
-/*------------- Seção Premios------------- */
+    /*-------------------------------------------- */
 
-    .premios h2{
+    /*------------- Seção Premios------------- */
+
+    .premios h2 {
         font-size: 36px;
     }
 
-    .texto-explicativo{
+    .texto-explicativo {
         font-size: 2.25rem;
     }
 
@@ -646,7 +713,7 @@ main{
 
     /* ------------Seção Shows ------------- */
 
-    .shows .container .nav-tabs{
+    .shows .container .nav-tabs {
         padding: 0 15px;
         border-bottom: 3px solid #f8071B;
         margin-top: 30px;
@@ -654,7 +721,7 @@ main{
         flex-direction: row;
     }
 
-    .shows .nav-item:first-child .nav-link{
+    .shows .nav-item:first-child .nav-link {
         border-radius: 10px 0 0 0;
         border: 1px solid #f8071B;
         background: #f8071B;
@@ -662,7 +729,7 @@ main{
         margin-bottom: 0;
     }
 
-    .shows .nav-item:last-child .nav-link{
+    .shows .nav-item:last-child .nav-link {
         border-radius: 0 10px 0 0;
         border: none;
         margin-bottom: 0px;
@@ -670,34 +737,34 @@ main{
 
     /*-------------------------------------- */
 
-    }
+}
 
-@media (min-width: 1025px){
+@media (min-width: 1025px) {
 
-/*--------------------- Seção Participar----------------------- */
-    .participar{
+    /*--------------------- Seção Participar----------------------- */
+    .participar {
         text-align: center;
         padding: 60px 0 50px 0;
     }
 
-    .partipar h2{
+    .partipar h2 {
         font-size: 36px;
     }
 
-    .participar-icon{
+    .participar-icon {
         height: 150px;
     }
 
-    .participar-icon img{
+    .participar-icon img {
         padding: 40px 30px;
     }
 
-    .como_participar .btn-cadastrar{
+    .como_participar .btn-cadastrar {
         font-size: 32px;
         margin-top: 77px;
     }
 
-    .como_participar .btn-link{
+    .como_participar .btn-link {
         width: 200px;
         height: 40px;
         border: solid 1px #000;
@@ -713,19 +780,19 @@ main{
         text-decoration: none;
     }
 
-/*-------------------------------------------- */
+    /*-------------------------------------------- */
 
-/*------------- Seção Tenha Mais Chances------------- */
-    .chances h2{
+    /*------------- Seção Tenha Mais Chances------------- */
+    .chances h2 {
         font-size: 36px;
     }
 
-    .chance-box{
+    .chance-box {
         height: 340px;
         width: 100%;
     }
 
-    .chance-box p .title-item{
+    .chance-box p .title-item {
         font-family: 'SantanderHeadline-Bold';
         margin: 26 auto 0 auto;
         font-size: 22px;
@@ -736,68 +803,70 @@ main{
         display: block;
     }
 
-    .cta-hero.cta-white .title-cta{
+    .cta-hero.cta-white .title-cta {
         font-size: 32px;
         line-height: 32px;
         margin-bottom: 35px;
     }
-/*-------------------------------------- */
 
-/*------------- Seção Premios------------- */
-    .premios h2{
+    /*-------------------------------------- */
+
+    /*------------- Seção Premios------------- */
+    .premios h2 {
         font-size: 36px;
     }
 
-    .conteudo-premios{
+    .conteudo-premios {
         margin-top: 58px;
     }
 
-    .premios .conteudo-premios h3{
+    .premios .conteudo-premios h3 {
         font-size: 36px;
     }
 
-    .texto-explicativo{
+    .texto-explicativo {
         font-size: 2.25rem;
     }
 
-    .premios .btn-cadastrar{
+    .premios .btn-cadastrar {
         font-size: 32px;
         margin-top: 77px;
-   }    
-/*----------------------------------------- */
+    }
 
-/* ------------Seção Shows ------------- */
+    /*----------------------------------------- */
 
-.shows .container .nav-tabs{
-    padding: 0 15px;
-    border-bottom: 3px solid #f8071B;
-    margin-top: 30px;
-    justify-content: center;
-    flex-direction: row;
-}
+    /* ------------Seção Shows ------------- */
 
-.shows .nav-item:first-child .nav-link{
-    border-radius: 10px 0 0 10px;
-    margin-bottom: 10px;
-    border: 1px solid #f8071B;
-    background: #f8071B;
-    color: #fff;
-}
+    .shows .container .nav-tabs {
+        padding: 0 15px;
+        border-bottom: 3px solid #f8071B;
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-.shows .nav-item:first-child .nav-link{
-    border-radius: 10px 0 0 0;
-    border: 1px solid #f8071B;
-    background: #f8071B;
-    color: #fff;
-    margin-bottom: 0;
-}
+    .shows .nav-item:first-child .nav-link {
+        border-radius: 10px 0 0 10px;
+        margin-bottom: 10px;
+        border: 1px solid #f8071B;
+        background: #f8071B;
+        color: #fff;
+    }
 
-.shows .nav-item:last-child .nav-link{
-    border-radius: 0 10px 0 0;
-    border: none;
-    margin-bottom: 0px;
-}
+    .shows .nav-item:first-child .nav-link {
+        border-radius: 10px 0 0 0;
+        border: 1px solid #f8071B;
+        background: #f8071B;
+        color: #fff;
+        margin-bottom: 0;
+    }
 
-/*-------------------------------------- */
+    .shows .nav-item:last-child .nav-link {
+        border-radius: 0 10px 0 0;
+        border: none;
+        margin-bottom: 0px;
+    }
+
+    /*-------------------------------------- */
 
 }
