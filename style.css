@@ -108,17 +108,62 @@ body::-webkit-scrollbar-track {
 
 /* ------------  Main ------------- */
 main {
-    padding-top: 51px;
     background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
     width: 100%;
     min-height: 768px;
+    padding-top: 100px;
     display: flex;
+    background-size: cover;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.promo-container-1, .promo-container-2, .promo-container-3{
+    display: none;
 }
 
 .mobile-section{
-    display: none;
+    width: 100%;
+}
+
+.container-promocao{
+    flex-wrap: wrap;
+}
+
+.promocao-text{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: SantanderText;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.875rem;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.mobile-section .cards-hero-img img{
+    width: 130px;
+}
+
+.descricao-promo-mic{
+   
+}
+
+.bnt-cadastrar-conjunto{
+    bottom: 0;
+    position: absolute;
+    z-index: 8;
+}
+
+.wallpaper-hands{
+    background-image: url(./assets/images/hands.png);
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
 }
 
 .vertical {
@@ -288,7 +333,6 @@ main {
 
 .chance-box img {
     text-align: center;
-    margin-bottom: 27px;
 }
 
 .chance-box p .title-item {
@@ -635,6 +679,13 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+    /* -------------------- seção main --------------------------- */
+
+    .promo-container-1, .promo-container-2, .promo-container-3{
+        display: none;
+    }
+
+
     /* ------------Seção Como Participar ------------- */
     .participar {
         padding: 30px 0;
@@ -740,6 +791,101 @@ main {
 }
 
 @media (min-width: 1025px) {
+    /* ----------- seção main ------------ */
+
+    main {
+        background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
+        width: 100%;
+        min-height: 768px;
+        padding-top: 100px;
+        display: flex;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .promo-container-1, .promo-container-2, .promo-container-3{
+        display: block;
+    }
+
+    .mobile-section{
+        display: none;
+    }
+    
+    /* promo-container-1 */
+    
+    .promo-container-1 .promocao-text{
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: SantanderText;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: italic;
+        line-height: 1.875rem;
+        letter-spacing: normal;
+        color: #fff;
+    }
+    
+    
+    .bnt-cadastrar-conjunto{
+        bottom: 0;
+        position: absolute;
+        z-index: 8;
+    }
+    
+    .wallpaper-hands{
+        background-image: url(./assets/images/hands.png);
+        width: 100%;
+        height: 260px;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .mobile-section{
+        display: none;
+    }
+    
+    .vertical {
+        width: 6px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(248, 7, 27);
+        background-color: rgb(248, 7, 27);
+        animation-direction: alternate-reverse;
+        margin: 3px;
+    }
+    
+    .equalizer {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    .vertical-lines {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    
+    .vertical {
+        width: 5px;
+        height: 20px;
+        background-color: #f8071B;
+    }
+    
+    @keyframes equalizer {
+        from {
+            height: 100%;
+        }
+    
+        to {
+            height: 20px;
+        }
+    }
 
     /*--------------------- Seção Participar----------------------- */
     .participar {
