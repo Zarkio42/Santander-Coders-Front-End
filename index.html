@@ -16,7 +16,36 @@
 </head>
 
 <body>
-    <nav></nav>
+    <header class="header">
+      <image class="logo" src="assets/images/santander-logo.png"></image>
+      <nav class="header-nav">
+        <ul id="menu" class="nav">
+        <li><a class="menu-item-nav" href="#">Início</a></li>
+        <li><a class="menu-item-nav" href="#como_participar">Como participar</a></li>
+        <li><a class="menu-item-nav" href="#tenha_mais_chances">Mais chances</a></li>
+        <li><a class="menu-item-nav" href="#premios">Prêmios</a></li>
+        <li><a class="menu-item-nav" href="#shows">Shows</a></li>
+        <!-- <li><a class="menu-item-nav" href="#cadastre_se">Cadastre-se</a></li>
+        <li><a class="menu-item-nav" href="#calendario">Calendário</a></li>
+        <li><a class="menu-item-nav" href="#numeros_da_sorte">Números da sorte</a></li>
+        <li><a class="menu-item-nav" href="#ganhadores">Ganhadores</a></li>
+        <li><a class="menu-item-nav" href="#duvidas_frequentes">Dúvidas frequentes</a></li>
+        <li><a class="menu-item-nav" href="#regulamento">Regulamento</a></li> -->
+      </ul>
+        
+        <div class="btn-cta">
+
+            <a class="btn-link">Peça seu cartão</a>
+            <a id="hamburguer-button" class="menu-mobile" role="button">
+                <img
+                src="assets/images/icon-menu-mobile-white.svg"
+                class="icon-menu-mobile"
+                width="20"
+                />
+            </a>
+        </div>
+      </nav>
+    </header>
     <main>
         <section class="promo-container-1">
             <div class="promocao-text">
@@ -426,6 +455,9 @@
     <section class="duvidas_frequentes"></section>
     <!-- <section class="regulamento"></section> -->
     <footer></footer>
+    <script src="./headerBehavior.js"></script>
+    <script src="./hamburguerMenu.js"></script>
+
 </body>
 
 </html>
