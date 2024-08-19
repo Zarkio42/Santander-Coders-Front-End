@@ -37,51 +37,43 @@ body::-webkit-scrollbar-track {
 .logo {
   margin: 0 20px;
 }
+
 /*--------------FONTES-----------------*/
 @font-face {
   font-family: 'SantanderHeadline-Bold';
-  src: url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff')
-      format('woff');
+  src: url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff2') format('woff2'),
+    url('./assets/fonts/headlines/santanderheadline-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderHeadline-BoldIt';
-  src: url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/headlines/santanderheadline-boldit-webfont.woff')
-      format('woff');
+  src: url('../fonts/santander-headline/santanderheadline-boldit-webfont.woff2') format('woff2'),
+    url('./assets/fonts/headlines/santanderheadline-boldit-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderHeadline-It';
-  src: url('./assets/fonts/headlines/santanderheadline-it-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/headlines/santanderheadline-it-webfont.woff')
-      format('woff');
+  src: url('./assets/fonts/headlines/santanderheadline-it-webfont.woff2') format('woff2'),
+    url('./assets/fonts/headlines/santanderheadline-it-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderHeadline';
-  src: url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff')
-      format('woff');
+  src: url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff2') format('woff2'),
+    url('./assets/fonts/headlines/santanderheadline-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderText-Bold';
-  src: url('./assets/fonts/text/santandertext-bold-webfont.woff2')
-      format('woff2'),
+  src: url('./assets/fonts/text/santandertext-bold-webfont.woff2') format('woff2'),
     url('./assets/fonts/text/santandertext-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -89,18 +81,15 @@ body::-webkit-scrollbar-track {
 
 @font-face {
   font-family: 'SantanderText-BoldItalic';
-  src: url('./assets/fonts/text/santandertext-bolditalic-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/text/santandertext-bolditalic-webfont.woff')
-      format('woff');
+  src: url('./assets/fonts/text/santandertext-bolditalic-webfont.woff2') format('woff2'),
+    url('./assets/fonts/text/santandertext-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderText-Italic';
-  src: url('./assets/fonts/text/santandertext-italic-webfont.woff2')
-      format('woff2'),
+  src: url('./assets/fonts/text/santandertext-italic-webfont.woff2') format('woff2'),
     url('./assets/fonts/text/santandertext-italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -108,8 +97,7 @@ body::-webkit-scrollbar-track {
 
 @font-face {
   font-family: 'SantanderText-Light';
-  src: url('./assets/fonts/text/santandertext-light-webfont.woff2')
-      format('woff2'),
+  src: url('./assets/fonts/text/santandertext-light-webfont.woff2') format('woff2'),
     url('./assets/fonts/text/santandertext-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -117,18 +105,15 @@ body::-webkit-scrollbar-track {
 
 @font-face {
   font-family: 'SantanderText-LightItalic';
-  src: url('./assets/fonts/text/santandertext-lightitalic-webfont.woff2')
-      format('woff2'),
-    url('./assets/fonts/text/santandertext-lightitalic-webfont.woff')
-      format('woff');
+  src: url('./assets/fonts/text/santandertext-lightitalic-webfont.woff2') format('woff2'),
+    url('./assets/fonts/text/santandertext-lightitalic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SantanderText';
-  src: url('./assets/fonts/text/santandertext-regular-webfont.woff2')
-      format('woff2'),
+  src: url('./assets/fonts/text/santandertext-regular-webfont.woff2') format('woff2'),
     url('./assets/fonts/text/santandertext-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -138,14 +123,12 @@ body::-webkit-scrollbar-track {
 
 /* ------------  Main ------------- */
 main {
-  background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center
-    center;
+  background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
   width: 100%;
+  padding-top: 51px;
   min-height: 768px;
-  padding-top: 100px;
   display: flex;
   background-size: cover;
-  align-items: center;
   justify-content: center;
   position: relative;
 }
@@ -158,23 +141,47 @@ main {
 
 .mobile-section {
   width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .container-promocao {
   flex-wrap: wrap;
+  padding: 15px 20px 0 20px;
 }
 
-.promocao-text {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  text-align: center;
+.box-logo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-logo .promocao-text-1 {
   font-family: SantanderText;
+  font-size: 1.2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: italic;
-  line-height: 1.875rem;
+  line-height: 1.5rem;
   letter-spacing: normal;
+  text-align: center;
   color: #fff;
+  text-transform: uppercase;
+}
+
+.box-logo .promocao-text-2 {
+  font-family: SantanderHeadline-It;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -1px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.mobile-section .cards-hero-img {
+  justify-content: center;
 }
 
 .mobile-section .cards-hero-img img {
@@ -182,7 +189,77 @@ main {
 }
 
 .descricao-promo-mic {
+  flex-wrap: wrap;
+  margin: 20px 0 0 0;
 }
+
+.descricao-promo-mic .mic-icon img {
+  width: 35px;
+}
+
+.descricao-promo-mic .texto-descritivo-header {
+  color: #fff;
+  font-family: SantanderText-Italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.descricao-promo-mic .texto-descritivo-header span {
+  font-weight: bold;
+}
+
+.grupo-descricao {
+  flex-wrap: nowrap;
+}
+
+.totem-container-mobile .hearts-midia {
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 130px;
+}
+
+.totem-container-mobile .hearts-midia img {
+  max-width: 228px;
+}
+
+.heart {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  background-image: url('./assets/images/heart-left.png');
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  z-index: 1;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(0.5);
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.cta-box-main {
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  margin: 0 0 30px 0;
+}
+
+/* ------------- */
 
 .bnt-cadastrar-conjunto {
   bottom: 0;
@@ -194,8 +271,12 @@ main {
   background-image: url(./assets/images/hands.png);
   width: 100%;
   height: 260px;
+  background-size: auto;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
+  background-position-x: center;
+  z-index: 2;
 }
 
 .vertical {
@@ -211,14 +292,15 @@ main {
 .equalizer {
   display: flex;
   width: 100%;
+  margin-top: 10px;
 }
 
 .vertical-lines {
-  height: 70px;
+  height: 50px;
   width: 100%;
   display: flex;
-  gap: 6px;
   align-items: center;
+  justify-content: center;
 }
 
 .vertical {
@@ -311,7 +393,7 @@ main {
 .btn-cta .btn-link {
   width: 150px;
   height: 40px;
-  border: solid 1px #000;
+  border: solid 1px #00000000;
   border-radius: 40px;
   background-color: #f8071b;
   color: #fff;
@@ -330,17 +412,19 @@ main {
 }
 
 .header {
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   position: absolute;
   top: 0;
-  width: 100%;
-  border-bottom: 1px solid;
-  border-color: rgba(255, 255, 255, 0.4);
-  height: 70px;
-  z-index: 10;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+
+.header .logo {
+  width: 120px;
 }
 
 .menu-item-nav {
@@ -929,8 +1013,7 @@ header .btn-cta {
   /* ----------- seção main ------------ */
 
   main {
-    background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center
-      center;
+    background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
     width: 100%;
     min-height: 768px;
     padding-top: 100px;
@@ -1168,6 +1251,7 @@ header .btn-cta {
   padding: 30px 10px 0;
   font-size: 15px;
 }
+
 .footer-links a {
   opacity: 0.8;
   font-family: SantanderText;
