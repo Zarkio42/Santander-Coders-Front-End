@@ -5,4 +5,4 @@ Repositorio dedicado ao projeto da primeira semana do Santander Coders.
 
 - Pedro Cardoso   pedro.contato24@gmail.com
 - Pedro Carvalho  pedrolcrg@gmail.com
-- Vitor Diorio
+- Vitor Diorio    vdioriomd@gmail.com
