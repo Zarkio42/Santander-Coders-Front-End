@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
 
 <body>
     <header class="header">
-        <image class="logo" src="assets/images/santander-logo.png"></image>
+        <img class="logo" src="assets/images/santander-logo.png"></img>
         <nav class="header-nav">
             <ul id="menu" class="nav">
                 <li><a class="menu-item-nav" href="#">Início</a></li>
@@ -44,16 +44,17 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <section class="promo-container-1">
-            <div class="promocao-text">
-                <p>promoção</p>
+        <section class="promo-container-1 col-4">
+            <div class="promocao-text-1">
+                <span>promoção</span>
             </div>
-            <div class="cards-hero-img">
+            <div class="cards-hero-img d-flex justify-content-center">
                 <img src="./assets/images/logo-santander-hero.svg" alt="logo santander">
             </div>
-            <div class="promocao-text">
-                <p>na musica</p>
+            <div class="promocao-text-2">
+                <span>na musica</span>
             </div>
             <div class="equalizer" id="equalizer">
                 <div class="vertical-lines" id="vertical-lines">
@@ -119,14 +120,30 @@
                         style="animation: 0.410723s ease 0s infinite alternate-reverse none running equalizer;"></div>
                 </div>
             </div>
-            <div>
-                <img src="./assets/images/cards-hero-v2.png" alt="cards hero">
+            <div class="cards-santander d-flex justify-content-center">
+                <img src="./assets/images/cards-hero-v2.png" alt="cartões santander">
             </div>
         </section>
-        <section class="promo-container-2">
+        <section class="promo-container-2 col-4">
             <div class="totem-music">
                 <img src="./assets/images/palco-v3.png" alt="totem music palco">
             </div>
+            <div class="heart" style="left: calc(61% + 14.1511px); opacity: 0.696633; animation: 4.44247s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(60% - 2.06595px); opacity: 0.548028; animation: 4.9907s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-180px)"></div>
+                <div class="heart" style="left: calc(62% - 6.37762px); opacity: 0.742745; animation: 4.08111s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-180px)"></div>
+                <div class="heart" style="left: calc(60% + 4.4355px); opacity: 0.983244; animation: 4.85282s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(48% + 8.23916px); opacity: 0.646047; animation: 4.69201s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-150px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(61% + 10.1186px); opacity: 0.836615; animation: 4.60825s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(60% - 9.90658px); opacity: 0.680756; animation: 4.47121s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(60% - 3.4819px); opacity: 0.642073; animation: 4.85102s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(47% + 14.2801px); opacity: 0.790833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(47% + 8.2401px); opacity: 0.640833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp;transform: translateY(-180px)"></div>
+                <div class="heart" style="left: calc(46% - 2.14357px); opacity: 0.88909; animation: 4.04831s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-180px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(48% - 2.14357px); opacity: 0.978909; animation: 4.04831s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-180px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(47% + 12.2401px); opacity: 0.640833; animation: 6.47472s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(48% + 4.2401px); opacity: 0.748833; animation: 4.07372s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(48% - 2.14357px); opacity: 0.978909; animation: 4.04831s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-180px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(60% + 13.9393px); opacity: 0.737544; animation: 6.62248s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-190px)"></div>
             <div class="bnt-cadastrar-conjunto">
                 <div class="cta-hero cta-white">
                     <div class="title-cta">
@@ -140,19 +157,18 @@
                 </div>
             </div>
         </section>
-        <section class="promo-container-3">
+        <section class="promo-container-3 col-4">
             <div class="mic-icon">
                 <img src="./assets/images/icon-mic.svg" alt="microfone icon">
             </div>
-            <div class="text-content">
-                <p>Concorra a</p>
-                <p>30 experiências</p>
-                <p>completas</p>
-                <p>com tudo pago</p>
-                <p>para shows de</p>
-                <p>artistas</p>
-                <p>internacionais</p>
-                <p>patrocinados pelo Santander</p>
+            <div class="texto-descritivo-desktop">
+                <p class="texto-descritivo-normal">Concorra a</p>
+                <p class="texto-descritivo-bold">30 experiências</p>
+                <p class="texto-descritivo-bold">completas</p>
+                <p class="texto-descritivo-bold">com tudo pago</p>
+                <p class="texto-descritivo-normal">para shows de</p>
+                <p class="texto-descritivo-bold">artistas internacionais</p>
+                <p class="texto-descritivo-normal">patrocinados pelo Santander</p>
             </div>
         </section>
         <section class="wallpaper-hands">
@@ -288,20 +304,20 @@
                 <div class="hearts-midia d-flex">
                     <img src="./assets/images/palco-v3.png" alt="palco">
                 </div>
-                <div class="heart" style="left: calc(68% + 14.1511px); opacity: 0.696633; animation: 4.44247s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% - 2.06595px); opacity: 0.548028; animation: 4.9907s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% - 6.37762px); opacity: 0.742745; animation: 4.08111s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% + 4.4355px); opacity: 0.983244; animation: 4.85282s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(68% + 14.1511px); opacity: 0.696633; animation: 4.44247s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(68% - 2.06595px); opacity: 0.548028; animation: 4.9907s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(68% - 6.37762px); opacity: 0.742745; animation: 4.08111s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(68% + 4.4355px); opacity: 0.983244; animation: 4.85282s ease-in-out 0s infinite normal forwards running floatUp;"></div>
                 <div class="heart" style="left: calc(43% + 8.23916px); opacity: 0.646047; animation: 4.69201s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-150px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% + 10.1186px); opacity: 0.836615; animation: 4.60825s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% - 9.90658px); opacity: 0.680756; animation: 4.47121s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% - 3.4819px); opacity: 0.642073; animation: 4.85102s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(43% + 14.2801px); opacity: 0.790833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(43% + 8.2401px); opacity: 0.640833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(41% + 12.2401px); opacity: 0.640833; animation: 6.47472s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(40% + 4.2401px); opacity: 0.748833; animation: 4.07372s ease-in-out 0s infinite normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(68% + 10.1186px); opacity: 0.836615; animation: 4.60825s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(68% - 9.90658px); opacity: 0.680756; animation: 4.47121s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(68% - 3.4819px); opacity: 0.642073; animation: 4.85102s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(43% + 14.2801px); opacity: 0.790833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(43% + 8.2401px); opacity: 0.640833; animation: 4.07472s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(41% + 12.2401px); opacity: 0.640833; animation: 6.47472s ease-in-out 0s infinite normal forwards running floatUp;"></div>
+                <div class="heart" style="left: calc(40% + 4.2401px); opacity: 0.748833; animation: 4.07372s ease-in-out 0s infinite normal forwards running floatUp;"></div>
                 <div class="heart" style="left: calc(43% - 2.14357px); opacity: 0.978909; animation: 4.04831s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-150px) scale(1.5);"></div>
-                <div class="heart" style="left: calc(68% + 13.9393px); opacity: 0.737544; animation: 6.62248s ease-in-out 0s 1 normal forwards running floatUp; transform: translateY(-100px) scale(1.5);"></div>
+                <div class="heart" style="left: calc(68% + 13.9393px); opacity: 0.737544; animation: 6.62248s ease-in-out 0s 1 normal forwards running floatUp;"></div>
                 
             </section>
             <section class="cta-box-main d-flex">
