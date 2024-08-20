@@ -171,6 +171,41 @@ body::-webkit-scrollbar-track {
   border: solid 1px #000;
 }
 
+.mobile-menu-active {
+  display: flex !important;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+
+  right: 10px;
+  top: 60px;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  color: #212529;
+  font-size: 16px;
+  min-width: 160px;
+  padding: 8px 0;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  gap: 0;
+}
+
+.sticky #menu {
+  top: 50px;
+}
+
+.menu-item-nav {
+  width: 100%;
+  padding: 4px 24px;
+  text-align: center;
+}
+
+.menu-item-nav:hover {
+  background-color: #ededed;
+}
+
 /* ------------  Main ------------- */
 main {
   background: url(./assets/images/banner-hero-desktop.jpg) no-repeat center center;
@@ -789,10 +824,6 @@ main {
   border-radius: 0 0 10px 10px;
 }
 
-.mobile-menu-active {
-  display: flex !important;
-}
-
 .shows .detail h4 {
   font-size: 1.625rem;
   font-stretch: normal;
@@ -1087,6 +1118,31 @@ header .btn-cta {
 
   .background-black-navbar {
     background-color: rgba(0, 0, 0, 1);
+  }
+
+  #menu {
+    display: flex;
+    position:static;
+    padding: 4px 24px;;
+    right: 10px;
+    top: 60px;
+    flex-direction: row;
+    background-color: #f2f2f200;
+    color: #fff;
+    border: none;
+    gap: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-item-nav {
+    align-items: center;
+    border-top: solid 3px transparent;
+    height: 70px;
+  }
+
+  .menu-item-nav:hover {
+    border-top: solid 3px red;
+    background-color: #00000000;
   }
 
   /* fim do header  */
@@ -1421,18 +1477,4 @@ header .btn-cta {
 
 .accordion-header {
   background-color: transparent !important;
-}
-
-@media screen and (min-width: 1300px) {
-  .menu-item-nav {
-    align-items: center;
-    padding: 0 10px;
-    padding: 0;
-    border-top: solid 3px transparent;
-    height: 70px;
-  }
-
-  .menu-item-nav:hover {
-    border-top: solid 3px red;
-  }
 }
